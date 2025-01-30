@@ -10,7 +10,8 @@ public record Book(Integer id,
                    Integer pageCount) {
     public static List<Book> books = Arrays.asList(
             new Book(1, "Harry Potter and the Philosopher's Stone J. K. Rowling",580),
-            new Book(2, "Harry Potter and the Chamber of Secrets J. K. Rowling",420)
+            new Book(2, "Harry Potter and the Chamber of Secrets J. K. Rowling",420),
+            new Book(3, "the art of war",655)
     );
 
     public static Optional<Book> getBookById(Integer id) {
